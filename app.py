@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("/models/weather_model.pkl")
+model = joblib.load("./models/weather_model.pkl")
 
 st.title("🌦️ Weather Prediction (ML Model)")
 st.write("Fill weather parameters to predict Rain or No Rain")
